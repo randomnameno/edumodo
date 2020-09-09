@@ -1,3 +1,8 @@
+.around-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 .head-word h3{
  display: flex;
@@ -8,17 +13,18 @@
 .cir{
     background-color: #fdf6ee;
     border-radius: 50%;
-    width: 1000px;
-    height: 1000px;
+    width: 900px;
+    height: 900px;
     z-index: -20;
-    transform: translate(800px,-200px);
+    transform: translate(60vw, -160px);
     margin:0;
     position: absolute;
 }
 .about-cards {
     display: flex;
     justify-content: center;
-    margin-left: auto;
+    flex-wrap: wrap;
+    margin: 50px 0;
 }
 @media(max-width:500px){
     .about-cards{
@@ -35,3 +41,11 @@
         font-size:40px;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .around-wrapper 
+    {
+        width: 100%;
+    }
+}
+

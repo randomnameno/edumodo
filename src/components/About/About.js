@@ -5,7 +5,7 @@ import college from '../../photos/college.png'
 function About()
 {
     return(
-        <div style={{display:"flex"}}>
+        <div className="about-container">
             <div className="circle-wrapper">
                 <div className="circle">
                     <div className="ball">

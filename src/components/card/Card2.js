@@ -4,8 +4,8 @@ import './Card2.css'
 class Card2 extends React.Component {
     render(){
         return(
-            <div className="card-wrapper" style={{padding:"20px"}}>
-                <div className="card c2" style={{width:"14rem",height:"18rem"}}>
+            <div className="card-wrapper">
+                <div className="around-card c2">
                     <img className="card-img-top" src={require(`../../photos/${this.props.img_name}.png`)} alt="Card image cap"/>
                     <div className="card-body">
                         <h5 className="card-title">{this.props.title}</h5>

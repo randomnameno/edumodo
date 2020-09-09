@@ -14,7 +14,7 @@ class Navi extends React.Component {
                 </div>
                     <div className="nav-text">
                         <a href="#" className="link">Study</a>
-                        <a href="#" className="link">About Us</a>
+                        <a href="#" className="link">AboutUs</a>
                         <a href="#" className="link">Admission</a>
                         <a href="#" className="link">Pages</a>
                         <a href="#" className="link">News</a>

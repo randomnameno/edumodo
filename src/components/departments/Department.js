@@ -3,7 +3,7 @@ import './Department.css'
 import Card from '../card/Card'
 function Department()
 {
-    const card_prop=['card1','card2','card3']
+    const card_prop=['../../photos/card1.png','card2','card3']
     return(
         <div className="department-wrapper">
             <div className="text">

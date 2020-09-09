@@ -1,3 +1,17 @@
+.card-wrapper {
+    width: 23%;
+}
+
+.card-wrapper .around-card {
+    width: 85%;
+    margin: 5px auto;
+}
+
+.card-wrapper .around-card .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .link, .link:hover{
     text-decoration: none;
@@ -13,5 +27,18 @@
     }
     .card-wrapper{
         margin: 0px auto;
+    }
+}
+
+@media screen and (max-width: 990px)
+{
+    .card-wrapper {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card-wrapper {
+        width: 75%;
     }
 }
