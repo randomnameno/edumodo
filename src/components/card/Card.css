@@ -1,0 +1,33 @@
+.card{
+    z-index: 0;
+}
+.card-img{
+    height: 20rem;
+    width: 18rem;
+}
+.card-link a{
+    color: white;
+    text-decoration-line: none;
+}
+.card-link a:hover{
+    color: gray;
+}
+.ct{
+    padding: 220px 40px;
+    color:white;
+    font-weight: 700;
+    font-size: 15px;
+}
+.bottom-row{
+    padding-bottom: 20px;
+}
+@media(max-width:500px){
+    .card{
+        display: flex;
+        width: 8rem;
+        height: 9rem;
+    }
+    .card-link {
+        font-size: 5px;
+    }
+}

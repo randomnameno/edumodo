@@ -1,0 +1,17 @@
+
+.link, .link:hover{
+    text-decoration: none;
+    color:gray;
+}
+
+.card-text{
+    color: gray;
+}
+@media(max-width:500px){
+    .card-text{
+        font-size: 15px;
+    }
+    .card-wrapper{
+        margin: 0px auto;
+    }
+}

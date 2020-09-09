@@ -1,0 +1,50 @@
+.Slide{
+    background-image:url("../../photos/Group11.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.main-text{
+    padding: 100px 100px;
+}
+.main-text h2{
+    font-weight: 700;
+    color: #fcd1a9;
+}
+.main-text h4{
+    font-size:14px;
+    padding-left: 4px;
+    font-weight: 600;
+    color: rgb(155, 155, 155);
+}
+button{
+background-color:#ffc178;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 60px;
+  transition: 0.5s;
+}
+button:hover{
+    color:black;
+    background-color:#fc7a00;
+}
+@media(max-width:500px){
+    .main-text h2{
+        color:#fc7a00;
+        font-size: 20px;
+    }
+    .main-text h4{
+        color: #8f1414;
+    }
+    .main-text {
+        padding: 10px 10px;
+    }
+    button{
+        background-color: #fc7a00;
+    }
+}

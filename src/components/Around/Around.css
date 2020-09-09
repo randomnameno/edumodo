@@ -1,0 +1,37 @@
+
+.head-word h3{
+ display: flex;
+ justify-content: center;
+ font-weight: 700;
+ font-size: 50px;
+}
+.cir{
+    background-color: #fdf6ee;
+    border-radius: 50%;
+    width: 1000px;
+    height: 1000px;
+    z-index: -20;
+    transform: translate(800px,-200px);
+    margin:0;
+    position: absolute;
+}
+.about-cards {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+}
+@media(max-width:500px){
+    .about-cards{
+        flex-direction: column;
+    }
+    .bottom-row{
+        flex-direction: column;
+    }
+    .cir{
+        visibility: hidden;
+    }
+    .head-word h3{
+        margin: 0px auto;
+        font-size:40px;
+    }
+}
